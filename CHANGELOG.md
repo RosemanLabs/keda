@@ -60,6 +60,7 @@ To learn more about active deprecations, we recommend checking [GitHub Discussio
 
 ## Unreleased
 
+
 ### New
 
 - Enable support on s390x for KEDA ([#6543](https://github.com/kedacore/keda/issues/6543))
@@ -75,6 +76,7 @@ To learn more about active deprecations, we recommend checking [GitHub Discussio
 - **General**: Improve Events emitted from ScaledObject controller ([#6802](https://github.com/kedacore/keda/issues/6802))
 - **Datadog Scaler**: Fix bug with datadogNamespace config ([#6828](https://github.com/kedacore/keda/pull/6828))
 - **Metrics API**: Support multiple auth methods simultaneously in Metrics API scaler ([#6642](https://github.com/kedacore/keda/issues/6642))
+- **Metrics API**: Add ignoreUnavailable to Metrics API scaler to ignore errors when the metrics API can't be reached ([#6962](https://github.com/kedacore/keda/pull/6962)
 - **Temporal Scaler**: Support custom tlsServerName ([#6820](https://github.com/kedacore/keda/pull/6820))
 
 ### Fixes
@@ -102,6 +104,7 @@ New deprecation(s):
 
 - **General**: Fix several typos ([#6909](https://github.com/kedacore/keda/pull/6909))
 - **General**: Replace deprecated webhook.Validator with webhook.CustomValidator ([#6660](https://github.com/kedacore/keda/issues/6660))
+- **MSSQL Scaler**: Refactor MS SQL e2e test ([#3401](https://github.com/kedacore/keda/issues/3401))
 
 ## v2.17.2
 
